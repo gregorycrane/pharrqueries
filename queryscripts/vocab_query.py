@@ -4,6 +4,10 @@ import xml.etree.ElementTree as ET
 tree = ET.parse('/Users/bellahwang/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml')
 root = tree.getroot()
 
+#tree1 = ET.parse('/Users/bellahwang/Documents/GitHub/Homerica/murray.iliad3.xml')
+#root1 = tree1.getroot()
+
+
 # prints out entire sentence 
 def printSent(target):
 
