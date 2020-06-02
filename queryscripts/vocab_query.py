@@ -1,24 +1,12 @@
+from englishalignment import printEngSent
 import sys
-
 import xml.etree.ElementTree as ET
-tree = ET.parse('/mnt/c/Users/bella/OneDrive/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml')
+# tree = ET.parse('/mnt/c/Users/bella/OneDrive/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml')
+tree = ET.parse('/Users/bellahwang/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml')
 root = tree.getroot()
 
-tree1 = ET.parse('/mnt/c/Users/bella/OneDrive/Documents/GitHub/Homerica/murray.iliad3.xml')
-root1 = tree1.getroot()
-
-def printEngSent(target):
-    for TEI in root1.findall('./TEI'):
- #   for body in root1.findall('./body'):
-        print("hi")
-"""         for p in body.findall('./p'):
-            for sentence in p.findall('./s'):
-                id = sentence.get('xml:id')
-                id[4:10]
-                print(id) """
-
 # prints out entire sentence 
-def printSent(target):
+def printGrkSent(target):
 
     for body in root.findall('./body'): 
         for sentence in body.findall('./sentence'):
@@ -61,7 +49,8 @@ for body in root.findall('./body'):
 
                 if (vocab == lemma):
                     print(count, "form: ", form, "lemma: ", lemma, cite)
-                    printSent(id)
+                    printGrkSent(id)
+                    print('')
                     printEngSent(id)
                     print('')
                     print('')
