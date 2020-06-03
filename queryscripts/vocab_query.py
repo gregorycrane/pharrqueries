@@ -48,7 +48,7 @@ for body in root.findall('./body'):
                 cite = word.get('cite')
 
                 if (vocab == lemma):
-                    print(count, "form: ", form, "lemma: ", lemma, cite)
+                    print(count, "form: ", form, "lemma: ", lemma, cite, id)
                     printGrkSent(id)
                     print('')
                     printEngSent(id)
