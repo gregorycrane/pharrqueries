@@ -6,7 +6,7 @@ tree = ET.parse('/Users/bellahwang/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg00
 root = tree.getroot()
 
 # prints out entire sentence 
-def printGrkSent(target):
+def printGrkSent(target, wordform):
 
     for body in root.findall('./body'): 
         for sentence in body.findall('./sentence'):
@@ -18,9 +18,14 @@ def printGrkSent(target):
                 for word in sentence.findall('./word'):
                     form = word.get('form')
                     postag = word.get('postag')
-
-                    sys.stdout.write(form)
-                    sys.stdout.write(" ")
+                    if (postag != None):
+                        if (form == wordform):
+                                            #  bold        green               end
+                            sys.stdout.write('\033[1m' + '\33[32m' + form + '\033[0m')
+                            sys.stdout.write(" ")
+                            continue
+                        sys.stdout.write(form)
+                        sys.stdout.write(" ")
 
 # For purposes of counting number of results
 count = 1
@@ -48,8 +53,8 @@ for body in root.findall('./body'):
                 cite = word.get('cite')
 
                 if (vocab == lemma):
-                    print(count, "form: ", form, "lemma: ", lemma, cite, id)
-                    printGrkSent(id)
+                    print(count, "form: ", form, "lemma: ", lemma, "cite: ", cite)
+                    printGrkSent(id, form)
                     print('')
                     printEngSent(id)
                     print('')
