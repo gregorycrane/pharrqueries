@@ -1804,34 +1804,34 @@ practice,3 covering with a card the English transliteration
 
 Spell and pronounce: <note>In spelling these words it is not necessary to have memorized the namesof the Greek letters, but the sounds should be familiar. Thus, for the present, α may be called a, β may be called 6, γ may be called g, etc.</note>
 
-<item n="menis-cunliffe-lex" lemma="μῆνις">μῆνις wrath, fury, madness, rage,</item>
-<item n="aeido-cunliffe-lex" lemma="ἀείδω">ἀείδω sing (of), hymn.</item>
+<item xml:id="menis-cunliffe-lex" lemma="μῆνις">μῆνις wrath, fury, madness, rage,</item>
+<item xml:id="aeido-cunliffe-lex" lemma="ἀείδω">ἀείδω sing (of), hymn.</item>
 
-<item n="thea-cunliffe-lex" lemma="θεά">θεά goddess.</item>
+<item xml:id="thea-cunliffe-lex" lemma="θεά">θεά goddess.</item>
 
-<item n="peleides-cunliffe-name" lemma="Πηληιάδης">Πηληιάδης son of Peleus, Achilles.</item>
-<item n="achilleus-cunliffe-name" lemma="Ἀχιλλεύς">Ἀχιλλεύς Achilles.</item>
-<item n="apollymi-cunliffe-lex ollymi-cunliffe-lex KEYS FOR PART" lemma="οὐλόμενος">οὐλόμενος accursed, destructive,</item>
-<item n="hos-cunliffe-lex:II" lemma="ὅς">ὅς who, which, what,</item>
-<item n="myrios-cunliffe-lex" lemma="μυρίοι">μυρίοι countless, innumerable.</item>
-<item n="achaius-cunliffe-name" lemma="Ἀχαιός">Ἀχαιός Achaean, Greek.</item>
- <item n="algos-cunliffe-lex" lemma="ἄλγος">ἄλγος grief, pain, woe, trouble,</item>
-<item n="tithemi-cunliffe-lex" lemma="τίθημι">τίθημι put, place, cause.</item>
+<item xml:id="peleides-cunliffe-name" lemma="Πηληιάδης">Πηληιάδης son of Peleus, Achilles.</item>
+<item xml:id="achilleus-cunliffe-name" lemma="Ἀχιλλεύς">Ἀχιλλεύς Achilles.</item>
+<item xml:id="apollymi-cunliffe-lex ollymi-cunliffe-lex KEYS FOR PART" lemma="οὐλόμενος">οὐλόμενος accursed, destructive,</item>
+<item xml:id="hos-cunliffe-lex:II" lemma="ὅς">ὅς who, which, what,</item>
+<item xml:id="myrios-cunliffe-lex" lemma="μυρίοι">μυρίοι countless, innumerable.</item>
+<item xml:id="achaius-cunliffe-name" lemma="Ἀχαιός">Ἀχαιός Achaean, Greek.</item>
+ <item xml:id="algos-cunliffe-lex" lemma="ἄλγος">ἄλγος grief, pain, woe, trouble,</item>
+<item xml:id="tithemi-cunliffe-lex" lemma="τίθημι">τίθημι put, place, cause.</item>
 
-<item n="pollos-cunliffe-lex" lemma="πολλός">πολλός much, many, numerous.</item>
+<item xml:id="pollos-cunliffe-lex" lemma="πολλός">πολλός much, many, numerous.</item>
 
-<item n="de-cunliffe-lex" lemma="δέ">δέ but, and, for, so.</item>
+<item xml:id="de-cunliffe-lex" lemma="δέ">δέ but, and, for, so.</item>
 
-<item n="iphthimos-cunliffe-lex" lemma="ἴφθιμος">ἴφθιμος valiant, mighty,</item>
-<item n="psyche-cunliffe-lex" lemma="ψυχή">ψυχή soul, spirit, breath, life.</item>
+<item xml:id="iphthimos-cunliffe-lex" lemma="ἴφθιμος">ἴφθιμος valiant, mighty,</item>
+<item xml:id="psyche-cunliffe-lex" lemma="ψυχή">ψυχή soul, spirit, breath, life.</item>
 
-<item n="aides-cunliffe-name" lemma="Ἅιδης">Ἄις (nominative not used), Hades, god of the lower world.</item>
-<item n="proiapto-cunliffe-lex" lemma="προϊάπτω">προϊάπτω hurl forward, send forth,</item>
-<item n="heros-cunliffe-lex" lemma="ἥρως">ἥρως hero, mighty warrior, protector, savior,</item>
-<item n="autos-cunliffe-lex" lemma="αὐτός">αὐτός self, same.</item>
-<item n="heloria-cunliffe-lex" lemma="ἑλώριον">ἑλώριov booty, prey, spoils,</item>
-<item n="teuxo-cunliffe-lex" lemma="τεύχω">τεύχω make, fashion, cause,</item>
-<item n="cyon-cunliffe-lex" lemma="κύων">κύων dog.</item>
+<item xml:id="aides-cunliffe-name" lemma="Ἅιδης">Ἄις (nominative not used), Hades, god of the lower world.</item>
+<item xml:id="proiapto-cunliffe-lex" lemma="προϊάπτω">προϊάπτω hurl forward, send forth,</item>
+<item xml:id="heros-cunliffe-lex" lemma="ἥρως">ἥρως hero, mighty warrior, protector, savior,</item>
+<item xml:id="autos-cunliffe-lex" lemma="αὐτός">αὐτός self, same.</item>
+<item xml:id="heloria-cunliffe-lex" lemma="ἑλώριον">ἑλώριov booty, prey, spoils,</item>
+<item xml:id="teuxo-cunliffe-lex" lemma="τεύχω">τεύχω make, fashion, cause,</item>
+<item xml:id="cyon-cunliffe-lex" lemma="κύων">κύων dog.</item>
 
 1	The figures refer to sections in this book.
 
@@ -1841,12 +1841,12 @@ Spell and pronounce: <note>In spelling these words it is not necessary to have m
 
 <pb n="1"/>4]	HOMERIC	GREEK
 
-<item n="" lemma="οἰωνός">οἰωνός bird (of prey), vulture, omen.</item>
-<item n="" lemma="τε">τέ and, also.</item>
-<item n="" lemma="δαίς">δαίς portion, feast, banquet.</item>
-<item n="" lemma="Ζεύς">Ζεύς Zeus, father and king of gods and men.</item>
-<item n="" lemma="τελέω">τελείω accomplish, fulfill,</item>
-<item n="" lemma="βουλή">βουλή will, wish, plan, purpose, counsel, council.</item>
+<item xml:id="oionos-cunliffe-lex" lemma="οἰωνός">οἰωνός bird (of prey), vulture, omen.</item>
+<item xml:id="te-cunliffe-lex" lemma="τε">τέ and, also.</item>
+<item ="dais-cunliffe-lex" lemma="δαίς">δαίς portion, feast, banquet.</item>
+<item xml:id="" lemma="Ζεύς">Ζεύς Zeus, father and king of gods and men.</item>
+<item xml:id="teleo-cunliffe-lex" lemma="τελέω">τελείω accomplish, fulfill,</item>
+<item xml:id="boule-cunliffe-lex" lemma="βουλή">βουλή will, wish, plan, purpose, counsel, council.</item>
 
 
 Derivatives: <note>Derivatives are to be connected with the Greek words by the students. When in doubt consult a good English dictionary,</note> mania(c-al) 621; ode(um), melody,
@@ -1907,7 +1907,7 @@ LESSON III: NOUNS OF THE FIRST DECLENSION
 <item xml:id="clagge-cunliffe-lex" lemma="κλαγγή">κλαγγή, κλαγγῆς, ἡ CLANG, (up)roar, roar, noise,</item>
 <item xml:id="tis-cunliffe-lex" lemma="τίς">τίς (m., f.), who? which? what?</item>
 <item xml:id="tis-cunliffe-lex" lemma="τίς">τί (neut.), which? what? why?</item>
-<item xml:id="philos-cunliffe-lex" lemma="Χρύση">Χρύση, Χρύσης, ἡ Chrysa, a town in the Troad.</item>
+<item xml:id="" lemma="Χρύση">Χρύση, Χρύσης, ἡ Chrysa, a town in the Troad.</item>
 
 <item xml:id="philos-cunliffe-lex fem" lemma="φίλος">φίλη dear, darling, lovely, beloved.</item>
 
@@ -1984,30 +1984,30 @@ and θάλασσα, <gloss>sea</gloss> (663), and review the paradigms of βου
 
 15.	VOCABULARY
 
-<item n="γάρ" lemma="γάρ">γάρ post. conj., for, in fact. <note>A postpositive word never comes first in its sentence, but usually second.</note></item>
+<item xml:id="gar-cunliffe-lex" lemma="γάρ">γάρ post. conj., for, in fact. <note>A postpositive word never comes first in its sentence, but usually second.</note></item>
 
-<item n="" lemma="εἰμί">εἰσί/εἰσίν (they) are, there are. <note>These words are enclitics, 553-554.</note></item>
+<item xml:id="eimi-cunliffe-lex" lemma="εἰμί">εἰσί/εἰσίν (they) are, there are. <note>These words are enclitics, 553-554.</note></item>
 
-<item n="γάρ" lemma="δέ">δέ, post. conj. but, and, so, for.	<note>A postpositive word never comes first in its sentence, but usually second.</note></item>
-<item n="" lemma="εἰμί">ἐστί/ἐστίν (he, she, it) is, there is.<note>These words are enclitics, 553-554.</note></item>
+<item xml:id="de-cunliffe-lex" lemma="δέ">δέ, post. conj. but, and, so, for.	<note>A postpositive word never comes first in its sentence, but usually second.</note></item>
+<item xml:id="eimi-cunliffe-lex" lemma="εἰμί">ἐστί/ἐστίν (he, she, it) is, there is.<note>These words are enclitics, 553-554.</note></item>
 
 
 <pb n="4"/>
 
-<item n="ἐκ" lemma="ἐκ">ἐκ before consonants, ἐξ before vowels: adv., and prep, with gen. from, out of.</item>
+<item xml:id="ec-cunliffe-lex" lemma="ἐκ">ἐκ before consonants, ἐξ before vowels: adv., and prep, with gen. from, out of.</item>
 
-<item n="ἐπί" lemma="ἐπί">ἐπί adv., and prep, with gen., dat., and acc. to, at, (up)on, against, over, for; adv., (up)on, thereon; with gen., (up)on, over, during; with dat., (up)on, in, for, about, against, at, beside, by; with acc., to, up to, over, (up) on.</item>
+<item xml:id="epi-cunliffe-lex" lemma="ἐπί">ἐπί adv., and prep, with gen., dat., and acc. to, at, (up)on, against, over, for; adv., (up)on, thereon; with gen., (up)on, over, during; with dat., (up)on, in, for, about, against, at, beside, by; with acc., to, up to, over, (up) on.</item>
 
-<item n="θάλασσα" lemma="θάλασσα">θάλασσα, θαλάσσης, ἡ sea.</item>
+<item xml:id="thalassa-cunliffe-lex" lemma="θάλασσα">θάλασσα, θαλάσσης, ἡ sea.</item>
 
-<item n="θεά" lemma="θεά">θεά, θεᾶς, ὴ goddess.</item>
+<item xml:id="thea-cunliffe-lex" lemma="θεά">θεά, θεᾶς, ὴ goddess.</item>
 
-<item n="Κίλλα" lemma="Κίλλα">Κίλλα, Κίλλης, ἡ Cilla, a town in the Troad.</item>
-<item n="οὐ" lemma="οὐ">οὐ, οὐκ, οὐχ not, no: 	οὐ before consonants, οὐκ before the smooth breathing, οὐχ before the rough breathing, 527-53</item>
-<item n="πάτρη" lemma="πάτρη">πάτρη, πάτρης, ἡ fatherland, native land,</item>
-<item n="" lemma="πολύς">πολλή much, many, numerous,</item>
-<item n="πυρή" lemma="πυρή">πυρή, πυρῆς, ἡ (funeral) pyre.</item>
-<item n="ψυχή" lemma="ψυχή">ψῡχή, ψῡχῆς, ἡ soul, breath, life, spirit.</item>
+<item xml:id="" lemma="Κίλλα">Κίλλα, Κίλλης, ἡ Cilla, a town in the Troad.</item>
+<item xml:id="ou-cunliffe-lex" lemma="οὐ">οὐ, οὐκ, οὐχ not, no: 	οὐ before consonants, οὐκ before the smooth breathing, οὐχ before the rough breathing, 527-53</item>
+<item xml:id="patre-cunliffe-lex" lemma="πάτρη">πάτρη, πάτρης, ἡ fatherland, native land,</item>
+<item xml:id="pollos-cunliffe-lex" lemma="πολύς">πολλή much, many, numerous,</item>
+<item xml:id="pyre-cunliffe-lex" lemma="πυρή">πυρή, πυρῆς, ἡ (funeral) pyre.</item>
+<item xml:id="psyche-cunliffe-lex" lemma="ψυχή">ψῡχή, ψῡχῆς, ἡ soul, breath, life, spirit.</item>
 
 Derivatives: thalasso-cracy; patriotic; pyro-latry, pyro-technical),
 pyro-graphy; psycho-logy, psycho-therapy, psychic(al).
@@ -2119,24 +2119,24 @@ LESSON V: THE PRESENT ACTIVE INDICATIVE OF VERBS IN -ω
 
 20.	VOCABULARY
 
-<item n="ἀείδω" lemma="ἀείδω">ἀείδω sing (of), hymn, chant.<note>The form of the verb (if not defective) appearing in the vocabulary is the first person singular of the present active indicative.</note></item>
-<item n="" lemma="">άν- (ά- before consonants), an inseparable prefix, not, un-, dis-, -less, without,<note>Sometimes called “ alpha privative.”</note></item>
-<item n="ἁνδάνω" lemma="ἁνδάνω">ἁνδάνω please (with dat, 996).</item>
-<item n="ἀτιμάζω" lemma="ἀτιμάζω">ἀ-τιμάζω dishonor, slight, insult,</item>
-<item n="βαίνω" lemma="βαίνω">βαίνω come, go, walk.</item>
+<item xml:id="aeido-cunliffe-lex" lemma="ἀείδω">ἀείδω sing (of), hymn, chant.<note>The form of the verb (if not defective) appearing in the vocabulary is the first person singular of the present active indicative.</note></item>
+<item xml:id="" lemma="">άν- (ά- before consonants), an inseparable prefix, not, un-, dis-, -less, without,<note>Sometimes called “ alpha privative.”</note></item>
+<item xml:id="handano-cunliffe-lex" lemma="ἁνδάνω">ἁνδάνω please (with dat, 996).</item>
+<item xml:id="atimazo-cunliffe-lex" lemma="ἀτιμάζω">ἀ-τιμάζω dishonor, slight, insult,</item>
+<item xml:id="baino-cunliffe-lex" lemma="βαίνω">βαίνω come, go, walk.</item>
 
-<item n="εἰς" lemma="εἰς">εἰς (ἐς) adv., and prep, with acc., to, into, until, therein.</item>
+<item xml:id="eis-cunliffe-lex" lemma="εἰς">εἰς (ἐς) adv., and prep, with acc., to, into, until, therein.</item>
 
-<item n="ἔχω" lemma="ἔχω">ἔχω have, hold, keep,</item>
-<item n="καίω" lemma="καίω">καίω burn, consume.</item>
+<item xml:id="echo-cunliffe-lex" lemma="ἔχω">ἔχω have, hold, keep,</item>
+<item xml:id="caio-cunliffe-lex" lemma="καίω">καίω burn, consume.</item>
 
-<item n="λύω" lemma="λύω">λύω Loose, free, break up, destroy,</item>
-<item n="ὀλέκω" lemma="ὀλέκω">ὀλέκω kill, destroy, ruin.</item>
+<item xml:id="lyo-cunliffe-lex" lemma="λύω">λύω Loose, free, break up, destroy,</item>
+<item xml:id="oleco-cunliffe-lex" lemma="ὀλέκω">ὀλέκω kill, destroy, ruin.</item>
 
-<item n="πέμπω" lemma="πέμπω">πέμπω send, escort, conduct,</item>
-<item n="τελείω" lemma="τελέω">τελείω accomplish, fulfill, complete,</item>
-<item n="τεύχω" lemma="τεύχω">τεύχω make, do, fashion, perform, cause, prepare,</item>
-<item n="φέρω" lemma="φέρω">φέρω bear, carry, bring.</item>
+<item xml:id="pempo-cunliffe-lex" lemma="πέμπω">πέμπω send, escort, conduct,</item>
+<item xml:id="teleo-cunliffe-lex" lemma="τελέω">τελείω accomplish, fulfill, complete,</item>
+<item xml:id="teucho-cunliffe-lex" lemma="τεύχω">τεύχω make, do, fashion, perform, cause, prepare,</item>
+<item xml:id="phero-cunliffe-lex" lemma="φέρω">φέρω bear, carry, bring.</item>
 
 Derivatives: ode(-um), mel-ody, palin-ode; a-theist, an-archy; caustic, cauterize, holo-caust; ana-lysis; pomp (593) ;
 teleo-logy ; peri-phery, phos-phor-us (593).
@@ -2286,32 +2286,32 @@ for example).
 
 25.	VOCABULARY
 
-<item n="" lemma="ἀγλαός">ἀγλαός, ἀγλαή, ἀγλαόν bright, shining, splendid, glorious.</item>
-<item n="ἀνά" lemma="ἀνά">ἀνά, ἄν adv., and prep, with gen., dat., and acc., up(on), along, up through; adv., (up)on, thereon; with dat, (up)on, along; with acc., through(out), up through.</item>
-<item n="ἀπερείσιος" lemma="ἀπερείσιος">ἀ-περείσιος, ἀ-πειρεσίη, ἀ-πειρείσιον boundless, countless, immeasureable.</item>
-<item n="ἄποινα" lemma="ἄποινα">ἄποινα, ἀποίνων, τά ransom(s).</item>
+<item xml:id="aglaos-cunliffe-lex" lemma="ἀγλαός">ἀγλαός, ἀγλαή, ἀγλαόν bright, shining, splendid, glorious.</item>
+<item xml:id="ana-cunliffe-lex" lemma="ἀνά">ἀνά, ἄν adv., and prep, with gen., dat., and acc., up(on), along, up through; adv., (up)on, thereon; with dat, (up)on, along; with acc., through(out), up through.</item>
+<item xml:id="apereisios-cunliffe-lex" lemma="ἀπερείσιος">ἀ-περείσιος, ἀ-πειρεσίη, ἀ-πειρείσιον boundless, countless, immeasureable.</item>
+<item xml:id="apoina-cunliffe-lex" lemma="ἄποινα">ἄποινα, ἀποίνων, τά ransom(s).</item>
 
 
 
 <pb n="7"/>
 
-<item n="Ἀχαιός" lemma="Ἀχαιός">Ἀχαιοί, Ἀχαιοῦ, ὁ Achaean, Greek.</item>
-<item n="δεινός" lemma="δεινός">δεινός, δεινή, δεινόν terrible, awful, dread(ful), fearfuL</item>
-<item n="ἑλώριον" lemma="ἑλώριον">ἑλώριον, ἑλωρίου, τό booty, spoils, prey.</item>
-<item n="θεός" lemma="θεός">θεός, θεοῦ, ὁ god, divinity,</item>
-<item n="θυμός" lemma="θυμός">θῡμός, θῡμοῦ, ὁ heart, soul, spirit, courage, passion.</item>
-<item n="κακός" lemma="κακός">κακός, κακή, κακόν bad, poor, ugly, mean, cowardly, evil, wicked,</item>
-<item n="καλός" lemma="καλός">κᾱλός, κᾱλή, κᾱλόν good(ly), noble, handsome, brave, fair, beautiful.</item>
+<item xml:id="" lemma="Ἀχαιός">Ἀχαιοί, Ἀχαιοῦ, ὁ Achaean, Greek.</item>
+<item xml:id="deinos-cunliffe-lex" lemma="δεινός">δεινός, δεινή, δεινόν terrible, awful, dread(ful), fearfuL</item>
+<item xml:id="heloria-cunliffe-lex" lemma="ἑλώριον">ἑλώριον, ἑλωρίου, τό booty, spoils, prey.</item>
+<item xml:id="theos-cunliffe-lex" lemma="θεός">θεός, θεοῦ, ὁ god, divinity,</item>
+<item xml:id="thymos-cunliffe-lex" lemma="θυμός">θῡμός, θῡμοῦ, ὁ heart, soul, spirit, courage, passion.</item>
+<item xml:id="cacos-cunliffe-lex" lemma="κακός">κακός, κακή, κακόν bad, poor, ugly, mean, cowardly, evil, wicked,</item>
+<item xml:id="calos-cunliffe-lex" lemma="καλός">κᾱλός, κᾱλή, κᾱλόν good(ly), noble, handsome, brave, fair, beautiful.</item>
 
-<item n="λαός" lemma="λαός">λᾱός, λᾱοῦ, ὁ people, host, soldiery,</item>
-<item n="μυρίος" lemma="μυρίος">μῡρίοι, μῡρίαι, μῡρίa countless, innumerable.</item>
-<item n="νοῦσος" lemma="νόσος">νοῦσος νούσου, ἡ plague, disease, pest(ilence).</item>
-<item n="οἰωνός" lemma="οἰωνός">οἰωνός, οἰωνοῦ, ὁ bird (of prey), vulture, omen.</item>
+<item xml:id="laos-cunliffe-lex" lemma="λαός">λᾱός, λᾱοῦ, ὁ people, host, soldiery,</item>
+<item xml:id="myrios-cunliffe-lex" lemma="μυρίος">μῡρίοι, μῡρίαι, μῡρίa countless, innumerable.</item>
+<item xml:id="nousos-cunliffe-lex" lemma="νόσος">νοῦσος νούσου, ἡ plague, disease, pest(ilence).</item>
+<item xml:id="oionos-cunliffe-lex" lemma="οἰωνός">οἰωνός, οἰωνοῦ, ὁ bird (of prey), vulture, omen.</item>
 
-<item n="πολύς" lemma="πολύς">πολλός, πολλή, πολλόν much, many, numerous,</item>
-<item n="στρατός" lemma="στρατός">στρατός, στρατοῦ, ὁ army, encampment, host.</item>
+<item xml:id="pollos-cunliffe-lex" lemma="πολύς">πολλός, πολλή, πολλόν much, many, numerous,</item>
+<item xml:id="stratos-cunliffe-lex" lemma="στρατός">στρατός, στρατοῦ, ὁ army, encampment, host.</item>
 
-<item n="φίλος" lemma="φίλος">φίλος, φίλη, φίλον dear, darling, lovely, beloved.</item>
+<item xml:id="philos-cunliffe-lex" lemma="φίλος">φίλος, φίλη, φίλον dear, darling, lovely, beloved.</item>
 
 Derivatives: ana-tomy; pena-lty;  theo-logy, theo-cracy,
 a-theism, poly-theism, mono-theism, heno-theism, pan-theism ; laity, lay-man;
@@ -2426,109 +2426,66 @@ VOCABULARY
 
 30.
 
-αγλαός, rj, 6v bright, shining, splendid,
-glorious,
-άίίδω sing (of), hymn, chant,
-άν- (ά- before consonants'), an inseparable
-prefix (“ alpha privative ”),
-not, un-, dis-, -less, ■without,
-άνά, αν, adv., and prep, with gen.,
-dat., and acc., up(on), along, up
-through, thereon, high on; adv.,
-(up)on, thereon; with dal., (up)-
-on, along; with acc., throughout),
-up through,
-άνδάνω please (with dat. 996).
-d-irip*	η, ον boundless, im-
-
-measurable, countless,
-άποινα, ων, τά ransom(s).
-ά-τίμάζω dishonor, slight, insult.
-
-Ἀχαιός, οΰ, o Achaean, Greek.
-βαίνω come, go, -walk,
-βουλή, g%, ή plan, will, wish, purpose,
-council, counsel.
-
--yap (postpositive) for, in fact.
-hi (postpositive) hut, and, so, for.
-δεινός, η, όν terrible, awful, dreadful),
-fearful,
-ίΐς (1ς) adv., and prep, with acc., into,
-to, until, therein.
-ito-C(v) are. la-rl(v) is.
-ίκ (ΐξ), adv., and prep, with gen.,
-out of, from, away (from),
-ίλώριον, ου, τό booty, spoil(s), prey.
-«v(C), «lv adv., and prep with dat.,
-in, among, on, there(in, -on),
-iirt adv., and preji. with gen., dat.,
+<item n="" lemma="">αγλαός, ή, όν bright, shining, splendid, glorious.</item>
+<item n="" lemma="">ἀείδω sing (of), hymn, chant.</item>
+<item n="" lemma="">άν- (ά- before consonants), an inseparable prefix (“alpha privative”), not, un-, dis-, -less, without.</item>
+<item n="" lemma="">άνά, αν, adv., and prep, with gen., dat., and acc., up(on), along, up through, thereon, high on; adv., (up)on, thereon; with dat., (up)on, along; with acc., through(out), up through.</item>
+<item n="" lemma="">άνδάνω please (with dat. 996).</item>
+<item n="" lemma="">ἀ-περείσιος, η, ον boundless, immeasurable, countless.</item>
+<item n="" lemma="">ἄποινα, ων, τά ransom(s).</item>
+<item n="" lemma="">ά-τῑμάζω dishonor, slight, insult.</item>
+<item n="" lemma="">Ἀχαιός, οῦ, ὁ Achaean, Greek.</item>
+<item n="" lemma="">βαίνω come, go, walk.</item>
+<item n="" lemma="">βουλή, ῆς, ἡ plan, will, wish, purpose, council, counsel.</item>
+<item n="" lemma="">γάρ (postpositive) for, in fact.</item>
+<item n="" lemma="">δέ (postpositive) but, and, so, for.</item>
+<item n="" lemma="">δεινός, ή, όν terrible, awful, dread(ful), fearful.</item>
+<item n="" lemma="">εἰς (ἐς) adv., and prep. with acc., into, to, until, therein.</item>
+<item n="" lemma="">εἰσί(ν) are.</item>
+<item n="" lemma="">ἐστί(ν) is.</item>
+<item n="" lemma="">ἐκ (ἐξ), adv., and prep. with gen., out of, from, away (from).</item>
+<item n="" lemma="">ἑλώριον, ου, τό booty, spoil(s), prey.</item>
+<item n="" lemma="">ἐν(ί), εἰν adv., and prep with dat., in, among, on, there(in, -on).</item>
 
 <pb n="9"/>31]
 
 HOMERIC GREEK
 
-and acc., to (up)on, against, by;
-adv., (up) on, thereon; with gen.,
-(up)on, over, during; with dat.,
-(up) on, in, for, about, against,
-at, beside, by; with acc., to, up
-to, over, (up) on.
-εσ-τί(ν) is.
-
-εχω have, hold, keep,
-ήν was. ήσαν were,
-θάλασ-σα, ης, ή sea.
-
-6εά, as, ή goddess,
-θεό?, ov, 6 god, divinity.
-
-6ϋμό$, οί, ό heart, spirit, soul, courage,
-passion,
-καί and, also, even; καί . . . καί
-both . . . and.
-καίω burn, consume,
-κακό?, ή, ov bad, poor, ugly, mean,
-cowardly, wicked, evil,
-καλό?, ή, όν good(ly), brave, noble,
-handsome, fair, beautiful.
-
-Κίλλα, η Cilla, a town.
-
-“λ^ΥΥή; ψι V clang, noise, (up)-
-roar.
-
-λαό?, ov, b people, host, soldiery.
-
-Χνω loose, free, destroy, break up.
-μνρίοι, at, a countless, innumerable.
-
-νονσ-os,
-ου, ή disease, plague, pest-
-(ilence).
-
-οίωνό?, σΰ, ό bird, vulture, omen,
-όλεκω kill, destroy, ruin,
-ού (ονκ, ονχ) not, no.
-ιτάτρη, iys, 17 fatherland, native land,
-■πέμπω send, escort, conduct,
-πολλό?, 17, ov much, many, numerous,
-ιτνρή,
-ης, ή (funeral) pyre,
-στρατό?, οϊ, ό army, encampment,
-host.
-
-τελείω accomplish, fulfill, complete,
-τενχω do, make, perform, fashion,
-cause, prepare,
-τί?, τί who? which? what? (τί
-why?)
-φόρω bear, bring, carry,
-φίλos, 77, ov dear, darling, lovely,
-beloved.
-
-Χρνσ-η, -ηs, 77 Chrysa, a town.
-ψϋχή, ής, η soul, breath, life, spirit.
+<item n="" lemma="">ἐπί adv., and prep. with gen., dat., and acc., to (up)on, against, by; adv., (up) on, thereon; with gen., (up)on, over, during; with dat., (up) on, in, for, about, against, at, beside, by; with acc., to, up to, over, (up) on.</item>
+<item n="" lemma="">ἐστί(ν) is.</item>
+<item n="" lemma="">ἔχω have, hold, keep.</item>
+<item n="" lemma="">ἦν was.</item>
+<item n="" lemma="">ἦσαν were.</item>
+<item n="" lemma="">θάλασσα, ης, ἡ sea.</item>
+<item n="" lemma="">θεά, ᾶς, ἡ goddess.<note>missing a macron above α</note></item>
+<item n="" lemma="">θεός, οῦ, ὁ god, divinity.</item>
+<item n="" lemma="">θῡμός, οῦ, ὁ heart, spirit, soul, courage, passion.</item>
+<item n="" lemma="">καί and, also, even;</item>
+<item n="" lemma="">καί . . . καί both . . . and.</item>
+<item n="" lemma="">καίω burn, consume.</item>
+<item n="" lemma="">κακός, ή, όv bad, poor, ugly, mean, cowardly, wicked, evil.</item>
+<item n="" lemma="">κᾱλός, ή, όν good(ly), brave, noble, handsome, fair, beautiful.</item>
+<item n="" lemma="">Κίλλα, ης, ἡ Cilla, a town.</item>
+<item n="" lemma="">κλαγγή, ῆς, ἡ clang, noise, (up)roar.</item>
+<item n="" lemma="">λᾱός, oῦ, ὁ people, host, soldiery.</item>
+<item n="" lemma="">λύω loose, free, destroy, break up.</item>
+<item n="" lemma="">μῡρίοι, αι, α countless, innumerable.</item>
+<item n="" lemma="">νοῦσos, ου, ἡ disease, plague, pest(ilence).</item>
+<item n="" lemma="">οἰωνός, οῦ, ὁ bird, vulture, omen.</item>
+<item n="" lemma="">ὁλέκω kill, destroy, ruin.</item>
+<item n="" lemma="">οὐ (οὐκ, οὐχ) not, no.</item>
+<item n="" lemma="">πάτρη, ης, ἡ fatherland, native land.</item>
+<item n="" lemma="">πέμπω send, escort, conduct.</item>
+<item n="" lemma="">πολλός, ή, όv much, many, numerous.</item>
+<item n="" lemma="">πυρή, ῆς, ἡ (funeral) pyre.</item>
+<item n="" lemma="">στρατός, οῦ, ὁ army, encampment, host.</item>
+<item n="" lemma="">τελείω accomplish, fulfill, complete.</item>
+<item n="" lemma="">τεύχω do, make, perform, fashion, cause, prepare.</item>
+<item n="" lemma="">τίς, τί who? which? what? (τί why?)</item>
+<item n="" lemma="">φέρω bear, bring, carry.</item>
+<item n="" lemma="">φίλos, η, ον dear, darling, lovely, beloved.</item>
+<item n="" lemma="">Χρύση, ηs, η Chrysa, a town.<note>missing a macron above υ</note></item>
+<item n="" lemma="">ψῡχή, ῆς, ἡ soul, breath, life, spirit.</item>
 
 Note.— No word will be found in any reading lesson which has not
 first been given in a special vocabulary. If the student will memorize
@@ -2648,32 +2605,22 @@ ends in -o instead of in -ov.
 
 37.	VOCABULARY
 
-<item n="" lemma="ἀλλά">ἀλλά but, moreover.	</item>
-<item n="" lemma="δῖος">δῖος, δῖa,<note>Declined like θάλασσα.</note> δῖov divine, heavenly, glorious.</item>
-
-<item n="" lemma="ἄλλος">ἄλλος, ἄλλη, ἄλλo other, another.	</item>
-
-<item n="" lemma="αὐτός">αὐτός, αὐτή, αὐτό self, him(self), her(self), it(self), same.	(one),	he, she, it.</item>
-<item n="" lemma="κεῖνος">ἐκεῖνος, ἐκείνη, ἐκεῖνo / κεῖνος, κείνη, κεῖνo that</item>
-
-
+<item xml:id="alla-cunliffe-lex" lemma="ἀλλά">ἀλλά but, moreover.</item>
+<item xml:id="dios-cunliffe-lex" lemma="δῖος">δῖος, δῖa, <note>Declined like θάλασσα.</note>δῖov divine, heavenly, glorious.</item>
+<item xml:id="allos-cunliffe-lex" lemma="ἄλλος">ἄλλος, ἄλλη, ἄλλo other, another.</item>
+<item xml:id="autos-cunliffe-lex" lemma="αὐτός">αὐτός, αὐτή, αὐτό self, him(self), her(self), it(self), same. (one), he, she, it.</item>
+<item xml:id="ceinos-cunliffe-lex" lemma="κεῖνος">ἐκεῖνος, ἐκείνη, ἐκεῖνo / κεῖνος, κείνη, κεῖνo that (one), he she it.</item>
 
 <pb n="11"/>
 
-<item n="ἑκηβόλος" lemma="">ἑκηβόλος, ἑκηβόλου, ὁ free-shooter, sharpshooter, epithet of Apollo. Originally an adjective: shooting according to will (desire, inclination, pleasure) ; as subst.: freeshooter, sure-shooter, sharpshooter.</item>
-
-<item n="" lemma="κακός">κακῶς evilly, wickedly, harshly, with evil consequences,</item>
-
-
-<item n="" lemma="ὁ">ὁ, ἡ, τό this, that; he, she. it; who, which, what.</item>
-
-<item n="" lemma="ὅς">ὅς, ἥ, ὄ who, which, what,</item>
-<item n="" lemma="οὕνεκα">οὕνεκα (οὗ-ἕνεκα) because.</item>
-
-<item n="" lemma="σκῆπτρον">σκῆπτρον, σκήπτρου, τό sceptke, staff.</item>
-<item n="" lemma="τε">τέ (enclitic, postpositive) and, also; τέ ... τέ (or τέ . . . καί, or καί . . . τέ) both . . . and, not only . . . but also.</item>
-
-<item n="" lemma="χρύσεος">χρύσεος, χρῡσέη, χρύσεov gold(en), of gold.</item>
+<item xml:id="hecebolos-cunliffe-lex" lemma="ἑκηβόλος">ἑκη-βόλος, ἑκηβόλου, ὁ free-shooter, sharpshooter, epithet of Apollo. Originally an adjective: shooting according to will (desire, inclination, pleasure) ; as subst.: freeshooter, sure-shooter, sharpshooter.</item>
+<item xml:id="cacos-cunliffe-lex" lemma="κακός">κακῶς evilly, wickedly, harshly, with evil consequences,</item>
+<item xml:id="ho-cunliffe-lex" lemma="ὁ">ὁ, ἡ, τό this, that; he, she. it; who, which, what.</item>
+<item xml:id="hos-cunliffe-lex" lemma="ὅς">ὅς, ἥ, ὄ who, which, what,</item>
+<item xml:id="houneca-cunliffe-lex" lemma="οὕνεκα">οὕνεκα (οὗ-ἕνεκα) because.</item>
+<item xml:id="sceptron-cunliffe-lex" lemma="σκῆπτρον">σκῆπτρον, σκήπτρου, τό sceptke, staff.</item>
+<item xml:id="te-cunliffe-lex" lemma="τε">τέ (enclitic, postpositive) and, also; τέ ... τέ (or τέ . . . καί, or καί . . . τέ) both . . . and, not only . . . but also.</item>
+<item xml:id="chryseios-cunliffe-lex" lemma="χρύσεος">χρύσεος, χρῡσέη, χρύσεov gold(en), of gold.</item>
 
 Derivatives :	allo-pathy; auto-maton, auto-cracy, auto-graph,
 
@@ -2724,29 +2671,22 @@ LESSON IX: THE IMPERFECT OF VERBS IN -ω
 
 42.	VOCABULARY
 
-<item n="" lemma="ἄλλος">ἄλλῃ elsewhere.</item>
-
-<item n="" lemma="Ἀργεῖος">Ἀργεῖος, Ἀργείου, ό Argive, Greek.</item>
-
-<item n="" lemma="">-δε with acc. 788, 4, to.</item>
-
-<item n="" lemma="διά">διά adv., and prep, with gen. and acc., through, on account of, by means of; adv., between, among; with gen., through; with acc., through, by means of, on account of, during.</item>
-
-<item n="" lemma="διίφιλος">διί-φιλος, διϊ-φίλη, διΐ-φιλον dear to Zeus (1168)<n>Thanks to Wright-Debnar</n></item>
-<item n="" lemma="εἴρω">εἴρω speak, say, tell,</item>
-<item n="" lemma="ἐμός">ἐμός, ἐμή, ἐμόν my, mine,</item>
-<item n="" lemma="ἔργον">ἔργον, ἔργου, τό (ϝέργον) work, deed, accomplishment.</item>
-
-<item n="" lemma="">-θεν gen. ending 788, 3, from.</item>
-<item n="" lemma="Κλυταιμνήστρη">Κλυταιμ(ν)ήστρη, Κλυταιμ(ν)ήστρης,  ἡ, Clytaemnestra, wife of Agamemnon, leader of the Greeks before Troy. She proved unfaithful to her husband in his absence, and murdered him on his return home.</item>
-<item n="" lemma="μαντοσύνη">μαντοσύνη, μαντοσύνης, ἡ gift of prophecy,</item>
-<item n="" lemma="οἶκος">οἶκος, οἴκου, ὁ house, home.</item>
-
-<item n="" lemma="Ὀλύμπιος">Ὀλύμπιος, Ὀλυμπίη, Ὀλύμπιov Olympian.</item>
-<item n="" lemma="Ὄλυμπος">Ὄλυμπος, Ὀλύμπου, ὁ Olympus.</item>
-
-<item n="" lemma="Πρίαμος">Πρίαμος, Πριάμου, ὁ Priam, king of Troy.</item>
-<item n="" lemma="σός">σός, σή, σόν your, yours.</item>
+<item xml:id="allos-cunliffe-lex" lemma="ἄλλος">ἄλλῃ elsewhere.</item>
+<item xml:id="" lemma="Ἀργεῖος">Ἀργεῖος, Ἀργείου, ό Argive, Greek.</item>
+<item xml:id="" lemma="">-δε with acc. 788, 4, to.</item>
+<item xml:id="dia-cunliffe-lex" lemma="διά">διά adv., and prep, with gen. and acc., through, on account of, by means of; adv., between, among; with gen., through; with acc., through, by means of, on account of, during.</item>
+<item xml:id="diiphilos-cunliffe-le" lemma="διίφιλος">διί-φιλος, διϊ-φίλη, διΐ-φιλον dear to Zeus (1168)<n>Thanks to Wright-Debnar</n></item>
+<item xml:id="eiro-cunliffe-lex" lemma="εἴρω">εἴρω speak, say, tell,</item>
+<item xml:id="emos-cunliffe-lex" lemma="ἐμός">ἐμός, ἐμή, ἐμόν my, mine,</item>
+<item xml:id="ergon-cunliffe-lex" lemma="ἔργον">ἔργον, ἔργου, τό (ϝέργον) work, deed, accomplishment.</item>
+<item xml:id="" lemma="">-θεν gen. ending 788, 3, from.</item>
+<item xml:id="" lemma="Κλυταιμνήστρη">Κλυταιμ(ν)ήστρη, Κλυταιμ(ν)ήστρης,  ἡ, Clytaemnestra, wife of Agamemnon, leader of the Greeks before Troy. She proved unfaithful to her husband in his absence, and murdered him on his return home.</item>
+<item xml:id="mantosyne-cunliffe-lex" lemma="μαντοσύνη">μαντοσύνη, μαντοσύνης, ἡ gift of prophecy,</item>
+<item xml:id="oicos-cunliffe-lex" lemma="οἶκος">οἶκος, οἴκου, ὁ house, home.</item>
+<item xml:id="" lemma="Ὀλύμπιος">Ὀλύμπιος, Ὀλυμπίη, Ὀλύμπιov Olympian.</item>
+<item xml:id="" lemma="Ὄλυμπος">Ὄλυμπος, Ὀλύμπου, ὁ Olympus.</item>
+<item xml:id="" lemma="Πρίαμος">Πρίαμος, Πριάμου, ὁ Priam, king of Troy.</item>
+<item xml:id="sos-cunliffe-lex" lemma="σός">σός, σή, σόν your, yours.</item>
 
 Derivatives: dia-meter; erg, en-ergy; mantic, mantis,
 necromancy; economy, eco-logy.
@@ -2797,8 +2737,8 @@ LESSON X: THE FUTURE AND AORIST OF VERBS IN -ω
 
 47.		VOCABULARY
 
-<item n="" lemma="ἄγω">ἄγω, ἄξω, ἤγαγον, 863 ; 865, 1, 4, lead, drive, conduct, bring, carry, take.	</item>
-<item n="" lemma="ἀνάσσω">ἀνάσσω (Ϝavaκ-), ἀνάξω, ἤναξα, with gen., 985, rule (over), guard, protect.</item>
+<item xml:id="ago-cunliffe-lex" lemma="ἄγω">ἄγω, ἄξω, ἤγαγον, 863 ; 865, 1, 4, lead, drive, conduct, bring, carry, take.	</item>
+<item xml:id="anasso-cunliffe-lex" lemma="ἀνάσσω">ἀνάσσω (Ϝavaκ-), ἀνάξω, ἤναξα, with gen., 985, rule (over), guard, protect.</item>
 
 
 
@@ -2807,22 +2747,22 @@ Cover of a vase found at Troy.
 
 <pb n="14"/>
 
-<item n="" lemma="ἄριστος">ἄρισ-τos, ἀρίστη, ἄριστον best, noblest, bravest, fairest, superl. of ἀγαθός, ἀγαθή, ἀγαθόν good.</item>
+<item xml:id="aristos-cunliffe-lex" lemma="ἄριστος">ἄρισ-τos, ἀρίστη, ἄριστον best, noblest, bravest, fairest, superl. of ἀγαθός, ἀγαθή, ἀγαθόν good.</item>
 
-<item n="" lemma="αὖθις">αὖτις (back) again, anew.</item>
+<item xml:id="autis-cunliffe-lex" lemma="αὖθις">αὖτις (back) again, anew.</item>
 
-<item n="" lemma="Δαναός">Δαναός, Δαναοῦ, ὁ Danaan, Greek.</item>
-<item n="" lemma="ἑκατόμβη">ἑκατόμβη, ἑκατόμβης, ἡ, hecatomb, sacrifice, a number of animals (originally one hundred, cattle) offered in sacrifice.</item>
-<item n="" lemma="θάνατος">θάνατος, θανάτου, ὁ death.</item>
+<item xml:id="" lemma="Δαναός">Δαναός, Δαναοῦ, ὁ Danaan, Greek.</item>
+<item xml:id="hecatombe-cunliffe-lex" lemma="ἑκατόμβη">ἑκατόμβη, ἑκατόμβης, ἡ, hecatomb, sacrifice, a number of animals (originally one hundred, cattle) offered in sacrifice.</item>
+<item xml:id="thanatos-cunliffe-lex" lemma="θάνατος">θάνατος, θανάτου, ὁ death.</item>
 
 
 
-<item n="" lemma="Ἴλιος">Ἴλιος, Ἰλίου, ἡ Ilium, Troy; 2) the Troad, i.e. the region around Troy.</item>
+<item xml:id="" lemma="Ἴλιος">Ἴλιος, Ἰλίου, ἡ Ilium, Troy; 2) the Troad, i.e. the region around Troy.</item>
 
-<item n="" lemma="μεγάθυμος">μεγάθῡμος, μεγαθύμη, μεγάθῡμον great-souled, brave,</item>
-<item n="" lemma="ὄχα">ὄχα (by) far, much, considerably,</item>
-<item n="" lemma="πείθω">πείθω (πειθ-, ποιθ-, πιθ-), πείσω, ἔπεισα (πέπιθον) persuade, win over, mislead,</item>
-<item n="" lemma="φιλέω">φιλέω, φιλήσω, ἐφίλησα love, cherish, entertain hospitably.</item>
+<item xml:id="megathymos-cunliffe-lex" lemma="μεγάθυμος">μεγάθῡμος, μεγαθύμη, μεγάθῡμον great-souled, brave,</item>
+<item xml:id="ocha-cunliffe-lex" lemma="ὄχα">ὄχα (by) far, much, considerably,</item>
+<item xml:id="peitho-cunliffe-lex" lemma="πείθω">πείθω (πειθ-, ποιθ-, πιθ-), πείσω, ἔπεισα (πέπιθον) persuade, win over, mislead,</item>
+<item xml:id="phileo-cunliffe-lex" lemma="φιλέω">φιλέω, φιλήσω, ἐφίλησα love, cherish, entertain hospitably.</item>
 
 Derivatives: ped-agogue, dem-agogue, syn-agogue ; aristocracy ; thanat-opsis, eu-thanasia 610, 9.
 
@@ -2874,26 +2814,20 @@ LESSON XI: MASCULINE NOUNS OF THE FIRST DECLENSION. COMPOUND VERBS
 
 62.	VOCABULARY
 
-ἀνα-βαίνω (βαν-, βα-), ἀναβήσω (ἀνα-βήσομαι), ἀνέβησα (ἀνέβην) go up, ascend, embark,
+<item xml:id="" lemma="">ἀνα-βαίνω (βαν-, βα-), ἀναβήσω (ἀνα-βήσομαι), ἀνέβησα (ἀνέβην) go up, ascend, embark.</item>
+<item xml:id="" lemma="">ἀπο-λύ-ω, ἀπολύσω, ἀπέλῡσα loose, set free, release.</item>
+<item xml:id="" lemma="">Ἀτρεΐδης, Ἀτρεΐδᾱο (Ἀτρεΐδεω), ὁ son of Atreus, usually refers to Agamemnon.</item>
+<item xml:id="" lemma="">κατα-καίω (καυ-, καϜ-, και-), κατα-καύσω, κατέκηα burn, consume.</item>
+<item xml:id="" lemma="">*κλεύω (κλευ-, κλεϜ-, κλυ-), —, ἔκλυον with gen. 984, hear, hearken to.</item>
+<item xml:id="" lemma="">μετέειπον or μετεῖπον = μετα-εἶπον (Ϝεπ-), 2d aor. of εἴρω spoke among, addressed, spoke to.</item>
+<item xml:id="" lemma="">ὅτε when (ever).</item>
+<item xml:id="" lemma="">Πηληιάδης, Πηληιάδᾱο (Πηληιάδεω), ὁ son of Peleus, Achilles.</item>
 
-ἀπο-λύω, ἀπολύσω, ἀπέλῡσα loose, set free, release.
+<item xml:id="" lemma="">προσέειπον or προσεῖπον 2d aor. of εἴρω (Ϝεπ-) addressed, spoke to.</item>
+<item xml:id="" lemma="">τότε then, at that time.</item>
+<item xml:id="" lemma="">χολό-ω. χολώσ-ω, ἐχόλωσα anger, enrage, vex.</item>
 
-Ἀτρεΐδης, Ἀτρεΐδᾱο (Ἀτρεΐδεω), ὁ son of Atreus, usually refers to Agamemnon.
-κατα-καίω (καυ-, καϜ-, και-), κατα-καύσω, κατέκηα burn, consume.
-
-*κλεύω (κλευ-, κλεϜ-, κλυ-), —, ἔκλυον with gen. 984, hear, hearken to.
-
-μετέειπον or μετεῖπον = μετα-εἶπον (Ϝεπ-), 2d aor. of εἴρω spoke among, addressed, spoke to.
-
-ὅτε when (ever).
-
-Πηληιάδης, Πηληιάδᾱο (Πηληιάδεω), ὁ son of Peleus, Achilles.
-
-προσέειπον or προσεῖπον 2d aor. of εἴρω (Ϝεπ-) addressed, spoke to.
-τότε then, at that time.
-χολό-ω. χολώσ-ω, ἐχόλωσα anger, enrage, vex.
-
-Xpύσηs, Χρύσᾱο (Χρύσεω), ὁ Chryses, a priest of the god, Apollo, from the town Chrysa.
+<item xml:id="" lemma="">Xpύσηs, Χρύσᾱο (Χρύσεω), ὁ Chryses, a priest of the god, Apollo, from the town Chrysa.</item>
 
 Translate:
 
