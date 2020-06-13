@@ -14,6 +14,7 @@ def printVocabSection(target):
 						for item in listElem.findall('./{http://www.tei-c.org/ns/1.0}item'):
 							for foreign in item.findall('./{http://www.tei-c.org/ns/1.0}foreign'):
 								lemma = foreign.text
+								#lemma = foreign.get('n')
 							if (target == lemma):
 						                        #  bold        green                                end
 								sys.stdout.write('\033[1m' + '\33[32m' + '[' + lessonNum + ']' + '\033[0m')
