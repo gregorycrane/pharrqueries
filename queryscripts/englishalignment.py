@@ -14,9 +14,8 @@ def printEngSent(target):
 			for book in translation.findall('./{http://www.tei-c.org/ns/1.0}div'):
 				for card in book.findall('./{http://www.tei-c.org/ns/1.0}div'):
 					for p in card.findall('./{http://www.tei-c.org/ns/1.0}p'):
-
 						for s in p.findall('./{http://www.tei-c.org/ns/1.0}s'):
 							id = s.get('{http://www.w3.org/XML/1998/namespace}id')
-
+							#print(id) #for debugging the english xml
 							if (target == id[4:11]):
 								print(s.text, end = '')

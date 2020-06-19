@@ -22,19 +22,19 @@ for body in root.findall('./body'):
         id = sentence.get('id')
 
         # Sets bool value for whether the subdoc is within Iliad Book 1
-        isBookOne = subdoc.startswith('1.')
+        #isBookOne = subdoc.startswith('1.')
 
-        if(isBookOne):
-            for word in sentence.findall('./word'):
-                form = word.get('form')
-                lemma = word.get('lemma')
-                cite = word.get('cite')
+        #if(isBookOne):
+        for word in sentence.findall('./word'):
+            form = word.get('form')
+            lemma = word.get('lemma')
+            cite = word.get('cite')
 
-                if (vocab == lemma):
-                    print(count, "form: ", form, "lemma: ", lemma, "cite: ", cite)
-                    printGrkSent(id, form)
-                    print('')
-                    printEngSent(id)
-                    print('')
-                    print('')
-                    count += 1
+            if (vocab == lemma):
+                print(count, "form: ", form, "lemma: ", lemma, "cite: ", cite)
+                printGrkSent(id, form)
+                print('')
+                printEngSent(id)
+                print('')
+                print('')
+                count += 1
