@@ -18,4 +18,4 @@ def printEngSent(target):
 							id = s.get('{http://www.w3.org/XML/1998/namespace}id')
 							#print(id) #for debugging the english xml
 							if (target == id[4:11]):
-								print(s.text, end = '')
+								sys.stdout.write(s.text)

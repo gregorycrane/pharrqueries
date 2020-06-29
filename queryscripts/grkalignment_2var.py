@@ -1,30 +1,35 @@
 from pharr_vocab import printVocabSection
+
 import sys
 import xml.etree.ElementTree as ET
-#tree = ET.parse('/mnt/c/Users/bella/OneDrive/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml')
-tree = ET.parse('/Users/bellahwang/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml')
+
+# change FILENAME to local path
+FILENAME = "/Users/bellahwang/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml"
+tree = ET.parse(FILENAME)
 root = tree.getroot()
 
-# prints out entire sentence 
-def printGrkSent(target, firstform, secondform):
+def printGrkSent2(targetid, firstid, secondid):
+    for sentence in root.findall('.//sentence'): 
+        sentid = sentence.get('id')
+        if (sentid == targetid):
+            for word in sentence.findall('./word'):
+                wordid = word.get('id')
+                form = word.get('form')
+                lemma = word.get('lemma')
+                postag = word.get('postag')
+                if (postag != None):
+                    if (wordid == firstid or wordid == secondid):
 
-    for body in root.findall('./body'): 
-        for sentence in body.findall('./sentence'):
-            
-            # Takes in id value
-            id = sentence.get('id')
-
-            if (id == target):
-                for word in sentence.findall('./word'):
-                    form = word.get('form')
-                    lemma = word.get('lemma')
-                    postag = word.get('postag')
-                    if (postag != None):
-                        if (form == firstform or form == secondform):
-                                            #  bold        green               end
-                            sys.stdout.write('\033[1m' + '\33[32m' + form + '\033[0m')
-                            sys.stdout.write(" ")
-                            printVocabSection(lemma)
-                            continue
-                        sys.stdout.write(form)
+                        # comment out if converting to html
+                                        #  bold        green               end
+                        sys.stdout.write('\033[1m' + '\33[32m' + form + '\033[0m')
                         sys.stdout.write(" ")
+                        printVocabSection(lemma)
+
+                        # for html file conversion
+                        # sys.stdout.write('<b>' + form + '</b>')
+                        # sys.stdout.write(" ")
+
+                        continue
+                    sys.stdout.write(form)
+                    sys.stdout.write(" ")
