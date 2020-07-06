@@ -23,3 +23,4 @@ def parseLexEntries(input):
 					returnIliad(wordEntry, biblEntry)
 					returnOdyssey(wordEntry, biblEntry)
 					print("")
+					print("")

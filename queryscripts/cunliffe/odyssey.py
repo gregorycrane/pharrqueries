@@ -1,3 +1,4 @@
+from odenglishalignment import printEngSent
 import sys
 import xml.etree.ElementTree as ET
 
@@ -34,3 +35,4 @@ def returnOdyssey(inputWord, inputCite):
                     sys.stdout.write(form)
                     sys.stdout.write(" ")
     print("")
+    printEngSent(targetid)
