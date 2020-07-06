@@ -7,15 +7,25 @@ FILENAME = "tlg0012.tlg001.perseus-grc1.tb.xml"
 tree = ET.parse(FILENAME)
 root = tree.getroot()
 
-def returnIliad(inputWord, inputCite):
-    for word in root.findall('.//word'):
-        form = word.get('form')
-        lemma = word.get('lemma')
-        cite = word.get('cite')
-        if (cite != None):
-            strippedCite = "Hom. Il. " + cite[32:]
+def printGrkSent(inputWord, inputCite):
+    for sentence in root.findall('.//sentence'):
+        sentid = sentence.get('id')
+        for word in sentence.findall('./word'):
+            lemma = word.get('lemma')
+            cite = word.get('cite')
+            if (cite != None):
+                strippedCite = "Hom. Il. " + cite[32:]
+                if (inputWord == lemma and inputCite == strippedCite):
+                    return sentid
 
-            if (strippedCite == inputCite):
+def returnIliad(inputWord, inputCite):
+    targetid = printGrkSent(inputWord, inputCite)
+    for sentence in root.findall('.//sentence'):
+        sentid = sentence.get('id')
+        if (sentid == targetid):
+            for word in sentence.findall('./word'):
+                form = word.get('form')
+                lemma = word.get('lemma')
                 if (inputWord == lemma):
                                      #  bold        green               end
                     sys.stdout.write('\033[1m' + '\33[32m' + form + '\033[0m')
@@ -23,3 +33,4 @@ def returnIliad(inputWord, inputCite):
                 else:
                     sys.stdout.write(form)
                     sys.stdout.write(" ")
+    print("")
