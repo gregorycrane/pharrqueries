@@ -17,10 +17,15 @@ def parseLexEntries(input):
 			if (wordEntry == input):
 				for gloss in entries.findall(".//TEI:gloss", ns):
 					print("Gloss:", gloss.text)
-				for bibl in entries.findall(".//TEI:bibl", ns):
-					biblEntry = bibl.get('n')
-					print(biblEntry)
-					returnIliad(wordEntry, biblEntry)
-					returnOdyssey(wordEntry, biblEntry)
-					print("")
-					print("")
+
+					for bibl in entries.findall(".//TEI:gloss/../TEI:bibl", ns):
+						biblEntry = bibl.get('n')
+						print(biblEntry)
+						if (biblEntry.startswith('Hom. Il.')):
+							returnIliad(wordEntry, biblEntry)
+							print("")
+							print("")
+						else:
+							returnOdyssey(wordEntry, biblEntry)
+							print("")
+							print("")
