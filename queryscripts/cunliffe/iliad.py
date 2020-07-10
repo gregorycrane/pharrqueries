@@ -16,7 +16,8 @@ def printGrkSent(inputWord, inputCite):
             cite = word.get('cite')
             if (cite != None):
                 strippedCite = "Hom. Il. " + cite[32:]
-                if (inputWord == lemma and inputCite == strippedCite):
+                strippedCite2 = "Il. " + cite[32:]
+                if ((inputWord == lemma and inputCite == strippedCite) or (inputWord == lemma and inputCite == strippedCite2)):
                     return sentid
 
 def returnIliad(inputWord, inputCite):

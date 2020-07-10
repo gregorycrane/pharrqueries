@@ -17,7 +17,6 @@ def parseLexEntries(input):
 			if (wordEntry == input):
 				for gloss in entries.findall(".//TEI:gloss", ns):
 					print("Gloss:", gloss.text)
-
 					for bibl in entries.findall(".//TEI:gloss/../TEI:bibl", ns):
 						biblEntry = bibl.get('n')
 						print(biblEntry)

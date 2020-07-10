@@ -16,7 +16,8 @@ def printGrkSent(inputWord, inputCite):
             cite = word.get('cite')
             if (cite != None):
                 strippedCite = "Hom. Od. " + cite[32:]
-                if (inputWord == lemma and inputCite == strippedCite):
+                strippedCite2 = "Od. " + cite[32:]
+                if ((inputWord == lemma and inputCite == strippedCite) or (inputWord == lemma and inputCite == strippedCite2)):
                     return sentid
 
 def returnOdyssey(inputWord, inputCite):
