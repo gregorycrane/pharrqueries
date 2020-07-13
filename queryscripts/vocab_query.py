@@ -13,7 +13,7 @@ count = 1
 print("Please input the lemma of a vocabulary word for all known examples of the word in Iliad 1.")
 vocab = input("Input lemma: ")
 
-for sentence in body.findall('.//sentence'):
+for sentence in root.findall('.//sentence'):
     subdoc = sentence.get('subdoc')
     sentid = sentence.get('id')
     for word in sentence.findall('./word'):
