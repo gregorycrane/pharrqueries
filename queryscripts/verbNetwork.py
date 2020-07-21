@@ -12,9 +12,9 @@ G = nx.Graph()
 
 verbid = None
 attribhead = None
-generalcount = 1
-verbcount = None
-attribcount = None
+# generalcount = 1
+# verbcount = None
+# attribcount = None
 
 for sentence in root.findall(".//sentence"):
 	for word in sentence.findall("./word"):
@@ -26,9 +26,9 @@ for sentence in root.findall(".//sentence"):
 				verblemma = word.get('lemma')
 				verbcite = word.get('cite')
 				# print("verb:", verblemma)
-				G.add_node(generalcount, lemma = verblemma, cite = verbcite)
-				verbcount = generalcount
-				generalcount += 1
+				G.add_node(verblemma, cite = verbcite)
+				# verbcount = generalcount
+				# generalcount += 1
 			else:
 				attribhead = word.get('head')
 				attriblemma = word.get('lemma')
@@ -37,13 +37,13 @@ for sentence in root.findall(".//sentence"):
 				
 			if (attribhead == verbid):
 				# print("attrib:", attriblemma)
-				G.add_node(generalcount, lemma = attriblemma, cite = attribcite)
-				attribcount = generalcount
-				generalcount += 1
+				G.add_node(attriblemma, cite = attribcite)
+				# attribcount = generalcount
+				# generalcount += 1
 
 				# print(verblemma + " is modified by " + attriblemma)
-				G.add_edge(verbcount, attribcount, relation = attribrelation)
+				G.add_edge(verblemma, attriblemma, relation = attribrelation)
 
-nx.write_graphml(G, "verbNetwork.graphml")
+nx.write_graphml(G, "verbNetworklemma.graphml")
 # nx.draw(G)
 # plt.show()
