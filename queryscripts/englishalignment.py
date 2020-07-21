@@ -1,7 +1,7 @@
 import sys
 
 import xml.etree.ElementTree as ET
-tree = ET.parse('/Users/bellahwang/Documents/GitHub/pharrqueries/editedxml/atmurray.iliad-sentalign-copy.xml')
+tree = ET.parse('atmurray.odyssey-sentalign-copy.xml')
 #tree = ET.parse('/mnt/c/Users/bella/OneDrive/Documents/GitHub/pharrqueries/editedxml/atmurray.iliad-sentalign-copy.xml')
 root = tree.getroot()
 

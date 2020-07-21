@@ -6,7 +6,7 @@ import sys
 import xml.etree.ElementTree as ET
 
 # change FILENAME to local path
-FILENAME = "/Users/bellahwang/Documents/GitHub/gAGDT/data/xml/tlg0012.tlg001.perseus-grc1.tb.xml"
+FILENAME = "tlg0012.tlg002.perseus-grc1.tb.xml"
 tree = ET.parse(FILENAME)
 root = tree.getroot()
 
