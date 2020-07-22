@@ -8,7 +8,7 @@ FILENAME = "tlg0012.tlg001.perseus-grc1.tb.xml"
 tree = ET.parse(FILENAME)
 root = tree.getroot()
 
-G = nx.Graph()
+G = nx.DiGraph()
 
 verbid = None
 attribhead = None
@@ -26,7 +26,7 @@ for sentence in root.findall(".//sentence"):
 				verblemma = word.get('lemma')
 				verbcite = word.get('cite')
 				# print("verb:", verblemma)
-				G.add_node(verblemma, cite = verbcite)
+				G.add_node(verblemma, lemma = verblemma, pos = pos, cite = verbcite)
 				# verbcount = generalcount
 				# generalcount += 1
 			else:
@@ -37,13 +37,13 @@ for sentence in root.findall(".//sentence"):
 				
 			if (attribhead == verbid):
 				# print("attrib:", attriblemma)
-				G.add_node(attriblemma, cite = attribcite)
+				G.add_node(attriblemma, lemma = attriblemma, pos = pos, cite = attribcite)
 				# attribcount = generalcount
 				# generalcount += 1
 
 				# print(verblemma + " is modified by " + attriblemma)
 				G.add_edge(verblemma, attriblemma, relation = attribrelation)
 
-nx.write_graphml(G, "verbNetworklemma.graphml")
+nx.write_graphml(G, "verbNetworkDirected.graphml")
 # nx.draw(G)
 # plt.show()
